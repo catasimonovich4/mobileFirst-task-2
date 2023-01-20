@@ -44,3 +44,42 @@ body {
 .active {
     color: rgb(240, 176, 28) !important; 
 }
+
+.events-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    align-items: center;
+}
+
+.heading-container {
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    padding: 8px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.heading-container > h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.event {
+    background-color: rgba(240, 176, 28, 0.863);
+    margin-top: 6%;
+    padding: 8px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.event > h2 {
+    font-weight: bold;
+    border-bottom: solid 2px black; 
+    margin-bottom: 3%;
+}
+
+.event > span > a {
+    text-decoration: none;
+    color: white;
+}
