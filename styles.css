@@ -1,0 +1,46 @@
+
+body {
+    background-image: url(./assets/background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Home Screen */
+.logo-header {
+    display: grid;
+    place-items: center;
+}
+
+.logo-img {
+    width: 70%;
+    margin-top: 15%;
+}
+
+.btn-list {
+    list-style-type: none;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    margin-top: 3%;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: rgb(240, 176, 28);
+    color: black;
+    font-weight: bold;
+}
+
+/* Events Screen */
+.logo-nav {
+    width: 40px;
+}
+
+.active {
+    color: rgb(240, 176, 28) !important; 
+}
