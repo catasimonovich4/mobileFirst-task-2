@@ -217,5 +217,30 @@ body {
     text-decoration: none;
 }
 
+/* Games Information */
+.games-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+}
 
+.table {
+    background-color: rgba(240, 176, 28, 0.863);
+    padding: 8px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+td:hover {
+    background-color: #c4c4c4;
+}
 
