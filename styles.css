@@ -3,6 +3,7 @@ body {
     background-image: url(./assets/background.jpg);
     background-size: auto;
     background-position-x: center;
+    background-attachment: fixed;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -28,7 +29,7 @@ body {
     font-size: 16px;
 }
 
-.btn:hover {
+.btn-home:hover {
     background-color: rgb(240, 176, 28);
     color: black;
     font-weight: bold;
@@ -36,6 +37,14 @@ body {
 
 .logo-nav {
     width: 40px;
+}
+
+.logo-footer {
+    width: 10%;
+}
+
+.footer {
+    font-size: 15px;
 }
 
 /* Events */
@@ -168,6 +177,7 @@ body {
 .rules-container {
     background-color: rgba(240, 176, 28, 0.719);
     margin-top: 6%;
+    margin-bottom: 2%;
     padding: 20px;
     padding-bottom: 0px;
     text-align: center;
@@ -213,13 +223,13 @@ body {
 .games-info {
     display: flex;
     flex-direction: column;
-    margin-top: 17%;
+    margin-top: 15%;
     justify-content: center;
     align-items: center;
 }
 
 .heading-games-container {
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.918);
     color: white;
     padding: 8px;
     text-align: center;
@@ -237,8 +247,16 @@ body {
     align-items: center;
 }
 
+.map {
+    text-decoration: none;
+}
+
+.table-backg {
+    background-color: rgba(255, 255, 255, 0.877);
+}
+
 .info-bottom-container {
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.918);
     color: white;
     padding: 8px;
 }
